@@ -1,0 +1,129 @@
+.start_wrap{
+    background-image: url(bg001.png);
+    background-size: cover;
+    background: white .3;
+    height: 100vh;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    animation-name: show_1;
+    animation-duration: 1s;
+}
+
+.start_title_wrap{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.start_title{
+    position: absolute;
+    top: 200px;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    animation-name: show_1;
+    animation-duration: 1.5s;
+}
+
+.start_title:hover::before{
+    position: absolute;
+    content: attr(data-content);
+    
+    top: -100px;
+    color: darkcyan;
+    align-items: center;
+    text-align: center;
+    display: block; 
+    animation-name: f1;
+    animation-duration: 1s;
+    opacity: .7;
+    
+}
+
+.start_title:hover::after{
+    position: absolute;    
+    content: attr(data-content);
+    top: 100px;
+    color: #641414;
+    align-items: center;
+    text-align: center;
+    display: block; 
+    animation-name: f2;
+    animation-duration: 1s;
+    opacity: .7;
+}
+
+.start_btn_wrap{
+    flex-wrap: wrap;    
+    width: 400px;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn_start{
+    font-size: 40px;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    margin: auto;
+    border: 0px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    transition: 0.3s;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    animation-name: show_1;
+    animation-duration: 3s;
+}
+
+.btn_start_1:hover{
+    background-color: darkcyan;
+    color: #fff;
+}
+
+.btn_start_2:hover{
+    background-color: #641414;
+    color: #fff;
+}
+
+
+@keyframes f1 {
+    0%   {
+        top: 0px;
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: darkcyan;
+        top: -100px;
+    }
+}
+
+@keyframes f2 {
+    0%   {
+        top: 0px;
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: #641414;
+        top: 100px;
+    }
+}
+
+@keyframes show_1 {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
