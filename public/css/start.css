@@ -1,5 +1,5 @@
 .start_wrap{
-    background-image: url(bg001.png);
+    background-image: url(/bg001.png);
     background-size: cover;
     background: white .3;
     height: 100vh;
