@@ -4,10 +4,11 @@
 <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Build Status"></a>
 </p>
 
+![image](https://raw.githubusercontent.com/JKinga0779/upload_01/refs/heads/main/wordcard_jp/wordcard_jp_readme_01.PNG)
+
 - 新增自己專屬的單字冊
 - 根據條件隨機產生題目自主測驗
-
-![image](https://raw.githubusercontent.com/JKinga0779/upload_01/refs/heads/main/wordcard_jp/wordcard_jp_readme_01.PNG)
+- [demo影片](https://www.youtube.com/watch?v=66oZGmCUiKk)
 
 ## 安裝步驟
 #### 1.於所在資料夾中啟動cmd
